@@ -100,7 +100,7 @@
 				<configuration>
 					<instructions>
 						<Export-Package>org.xbill.DNS;uses:="org.xbill.DNS.util",org.xbill.DNS.spi;uses:="org.xbill.DNS,sun.net.spi.nameservice",org.xbill.DNS.utils,org.xbill.DNS.windows</Export-Package>
-						<Import-Package>junit.framework;optional="true",!sun.*</Import-Package>
+						<Import-Package>junit.framework;resolution:=optional,!sun.*</Import-Package>
 					</instructions>
 				</configuration>
 				<executions>
