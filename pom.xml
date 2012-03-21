@@ -122,8 +122,6 @@
 					<sourcepath>./;./tests/</sourcepath>
 					<debug>true</debug>
 					<javadocVersion>${target.jdk}</javadocVersion>
-					<!-- Java 14 is used to produce javadoc because of http://bugs.sun.com/bugdatabase/view_bug.do?bug%5Fid=4492654 -->
-					<javadocExecutable>${JAVA_14_HOME}/bin/javadoc</javadocExecutable>
 				</configuration>
 			</plugin>
 		</plugins>
